@@ -1,0 +1,62 @@
+body {
+	color: #FFF;
+	cursor: default;
+	margin: 0;
+	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+}
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #006faf;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.wrapper {
+    width: 600px;
+    height: 400px;
+    margin: -230px 0 0 -275px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+.main {
+	position: relative;
+}
+
+.main .heading{
+    letter-spacing: -0.04em;
+    font-size: 75px;
+    position: absolute;
+    top: 195px;
+    left: 85px;
+}
+
+.main .sub-heading{
+    position: absolute;
+    left: 93px;
+    top: 277px;
+    letter-spacing: 0.06em;
+    display: none;
+}
+
+.main .profile-pic{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 170px;
+    top: 0;
+}
