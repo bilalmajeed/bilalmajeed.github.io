@@ -39,12 +39,4 @@ $(document).ready(function() {
 	$('.projects .card').click(function(event) {
 		event.stopPropagation();
 	});
-
-	// backspace key returns you to the home page
-	$('body').on('keydown', function(){
-		var key = event.keyCode || event.charCode;
-		if( key == 8 && $('.main').is(':hidden')){
-			showHideProjects();
-		}
-	});
 });
